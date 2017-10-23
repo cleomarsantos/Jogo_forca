@@ -1,0 +1,302 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+	text-align: center;
+    line-height: 20px;
+}
+a{text-decoration: none; color: #333;}
+.left{float:left;}
+.right{float: right;}
+#box{
+	
+}
+#box .header{
+	font: 30px Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+#box .footer{
+	float: center;
+	font: 12px Tahoma, sans-serif;
+	font-weight: bold;
+}
+#conteudo{
+	
+	width: 770px;
+	height: 530px;
+	position: relative;
+	margin: 0 auto;
+}
+#inicio-botoes{
+	width: 224px;
+	height: 200px;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 265px;
+}
+#inicio-botoes.score{
+	margin-top: 100px;	
+}
+.botao{
+	background: #fff;
+	float: left;
+	width: 220px;
+	height: 20px;
+	border: 5px solid #000;
+	margin-right: 20px;
+	margin-bottom: 35px;
+	padding-top: 5px;
+	font: 12px Tahoma, sans-serif;
+	font-weight: bolder;
+}
+.botao:hover{
+	background: #999;
+}
+.dropdown{
+	background: #fff;
+	float: left;
+	width: 220px;
+	height: 30px;
+	border: 2px solid #000;
+	margin-right: 20px;
+	margin-bottom: 35px;
+	font: 12px Tahoma, sans-serif;
+	font-weight: bolder;
+}
+.botao-input{
+	background: #fff;
+	width: 220px;
+	height: 30px;
+	border: 2px solid #000;
+	margin-bottom: 35px;
+	font: 12px Tahoma, sans-serif;
+	font-weight: bolder;
+	cursor: pointer;	
+}
+.botao-input:hover{
+	background: #999;
+}
+#geral{
+	width: 600px;
+	padding-top: 150px;
+	margin: 0 auto;
+}
+#esquerda{
+	float: left;
+	height: 75px;
+}
+#esquerda a{
+	float: left;
+	margin: 0;
+}
+#direita{
+	float: right;
+	height: 75px;
+}
+#direita a{
+	float: right;
+	margin: 0;
+}
+.cinza{
+	background: #ccc;
+}
+.branco{
+	background: #fff;
+}
+.campo-cadastro{
+	width: 600px;
+	height: 50px;
+	border:1px solid #069;
+	font: 18px Tahoma, sans-serif;
+	color: #666;
+	padding-left: 150px;
+	margin-bottom: 25px;
+}
+/*PAGINA EM CONSTRUÇÃO*/
+.construcao{
+	margin-top: 35px;
+}
+.titulo{
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+	margin-bottom: 10px;
+}
+
+/*TABELA*/
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+	margin-left: 50px;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: red;
+	text-decoration: underline !important;
+}
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}
+
+/*JOGAR*/
+#teclado{
+	float: left;
+	width: 500px;
+}
+
+.btn:hover{
+    background-position: 0 -15px;
+    color: #333;
+    text-decoration: none;
+}
+.btn {
+	float: left;
+	margin-top: 10px;
+	margin-right: 12px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),color-stop(25%,#ffffff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff,#ffffff 25%,#e6e6e6);
+    background-image: -moz-linear-gradient(top,#ffffff,#ffffff 25%,#e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff,#ffffff 25%,#e6e6e6);
+    background-image: -o-linear-gradient(#ffffff,#ffffff 25%,#e6e6e6);
+    background-image: linear-gradient(#ffffff,#ffffff 25%,#e6e6e6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#e6e6e6',GradientType=0);
+    padding: 4px 12px;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -o-transition: 0.1s linear all;
+    -webkit-transition: 0.1s linear all;
+    -moz-transition: 0.1s linear all;
+    -ms-transition: 0.1s linear all;
+    transition: 0.1s linear all;
+}
+#teclado ul {
+    list-style-type: none;
+    display: block;
+}
+ul, ol {
+    list-style-position: inside;
+}
+#teclado ul:nth-child(2) {
+    margin-left: 21px;
+}
+#teclado ul:nth-child(3) {
+    margin-left: 63px;
+}
+#palavras{
+	float: left;
+	width: 500px;
+	height: 200px;
+    font-size: 20px;
+    line-height: 56px;
+    letter-spacing: 9px;
+    color: #404040;
+    margin-top: 100px;
+}
+#palavras span {
+    display: block;
+    text-align: center;
+}
+.tema{
+	float: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+#forca{
+	float: left;
+	width: 260px;
+}
+#forca{
+	height: 415px;
+}
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+.btn.danger{
+    background-color: #D9807C !important;
+    background-repeat: repeat-x;
+    background-position: 0px -30px;
+}
+.btn.success{
+    background-color: #92C792 !important;
+    background-repeat: repeat-x;
+    background-position: 0px -30px;
+}
+.imagem{
+	width: 262px;
+	height: 243px;
+	background: #fff;
+}
+.pontos{
+	display: block;
+}
+#campo-nome{
+	width: 200px;
+	height: 50px;
+	margin-bottom: 5px;
+}
+.voltar{
+	float: right;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 25px;
+}
